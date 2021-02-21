@@ -21,7 +21,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="favicon.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -59,9 +59,14 @@
           <li><a href="#team">Team</a></li>
            <li class="drop-down"><a href="">Services</a>
             <ul>
-              <li><a href="simon.html">SiMon</a></li>
-              <li><a href="#">SiBot</a></li>
-              <li><a href="#">SiTalk</a></li>
+              <li><a href="#">Products</a></li>
+              <li class="drop-down"><a href="#">Portfolio</a>
+                <ul>
+                  <li><a href="simon.html">SiMon</a></li>
+                  <li><a href="#">SiBot</a></li>
+                  <li><a href="#">SiTalk</a></li>
+                </ul>
+              </li>
             </ul>
           </li>  
           <li><a href="#contact">Contact</a></li>
@@ -69,7 +74,7 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="https://login.sihanan.com:3000" class="get-started-btn scrollto">Login</a>
+      <a href="#about" class="get-started-btn scrollto">Login</a>
 
     </div>
   </header><!-- End Header -->
